@@ -1,0 +1,27 @@
+{
+  "name": "@intgetion/kit",
+  "version": "0.1.0-draft",
+  "description": "Shared server helpers for INTGETION modules: database client, errors, logger, site URL.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.45.3",
+    "pino": "10.4.0",
+    "postgres": "^3.4.9"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5",
+    "vitest": "^5.0.3"
+  },
+  "peerDependencies": {
+    "next": "^16.3.8"
+  }
+}
