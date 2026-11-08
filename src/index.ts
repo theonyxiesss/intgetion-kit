@@ -2,10 +2,13 @@ export { cn } from "./cn";
 export { getDb, maxConnections } from "./db";
 export {
   errorCodes,
+  authUnavailable,
   forbidden,
   HttpError,
   httpErrorResponse,
   notFound,
+  rateLimited,
+  unauthenticated,
   validationError,
 } from "./errors";
 export type { ErrorBody, ErrorCode } from "./errors";
