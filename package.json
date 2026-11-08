@@ -1,7 +1,7 @@
 {
   "name": "@intgetion/kit",
-  "version": "0.1.0-draft",
-  "description": "Shared server helpers for INTGETION modules: database client, errors, logger, site URL.",
+  "version": "0.2.0",
+  "description": "Shared server helpers for INTGETION modules: database client, errors, logger, site URL, time zones.",
   "license": "UNLICENSED",
   "type": "module",
   "exports": {
